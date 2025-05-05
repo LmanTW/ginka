@@ -1,0 +1,45 @@
+:root {
+  --maintext:     rgb(255, 255, 255);
+  --grayedout:    rgb(160, 160, 160);
+  --standout:     rgb(255, 255, 255);
+  --link:         rgb(47, 171, 212);
+/*--statok:       rgb(34, 188, 206);*/
+/*--statnok:      rgb(201, 35, 70);*/
+  --footer:       rgb(256, 256, 256);
+
+  --maintitle:    rgb(255, 255, 255);
+  --boxtitle:     rgb(255, 255, 255);
+  --alttitle:     rgb(128, 128, 128);
+
+  --bodybg:       rgb(2, 17, 37);
+  --boxbg:        rgb(24, 34, 48);
+  --tabbg:        rgb(2, 17, 37);
+  --secbg:        rgb(0, 0, 0);
+  --blendbg:      rgb(29, 114, 173);
+  --secborder:    rgb(29, 114, 173);
+  --border:       rgb(29, 114, 173);
+
+/*--diffadd:      #354;*/
+/*--diffdel:      #534;*/
+/*--warnbg:       #534;*/
+/*--warnborder:   #c00;*/
+/*--noticebg:     #052d2e;*/
+/*--noticeborder: #227688;*/
+/*--helpbutton:   #06ffc5*/
+}
+
+body {
+  background: rgb(0, 0, 0)
+}
+
+#bgright {
+  position: fixed;
+  background-image: url("https://raw.githubusercontent.com/LmanTW/ginka/refs/heads/main/background.gif");
+  background-position: top;
+  background-size: cover;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  filter: brightness(0.9) blur(8px)
+}
